@@ -44,6 +44,7 @@ public class LeaveServiceimpl implements Services {
 		Leaves le = new Leaves();
 		le.setId(dt.getId());
 		le.setName(dt.getName());
+		le.setStudentEmail(dt.getStudentEmail());
 		le.setStartdate(dt.getStartdate());
 		le.setEnddate(dt.getEnddate());
 		le.setReason(dt.getReason());
@@ -56,6 +57,7 @@ public class LeaveServiceimpl implements Services {
 		DataTransfer dt = new DataTransfer();
 		dt.setId(le.getId());
 		dt.setName(le.getName());
+		dt.setStudentEmail(le.getStudentEmail());
 		dt.setStartdate(le.getStartdate());
 		dt.setEnddate(le.getEnddate());
 		dt.setReason(le.getReason());

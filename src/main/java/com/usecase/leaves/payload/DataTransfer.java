@@ -12,6 +12,16 @@ public class DataTransfer {
 	private int id;
 	private String name;
 	
+	private String studentEmail;
+	
+	public String getStudentEmail() {
+		return studentEmail;
+	}
+
+	public void setStudentEmail(String studentEmail) {
+		this.studentEmail = studentEmail;
+	}
+
 	public int getId() {
 		return id;
 	}
